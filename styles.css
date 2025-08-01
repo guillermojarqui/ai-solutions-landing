@@ -1,0 +1,98 @@
+﻿/* Paleta: fondo oscuro + azul moderno */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  height: 300px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1e90ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1a1a1a, #141414);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #1e90ff;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #1e90ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta:hover {
+  background-color: #0073e6;
+}
+
+.features, .how-it-works, .testimonial, .contact {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.features ul, .how-it-works ol {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
+
+.testimonial blockquote {
+  border-left: 4px solid #1e90ff;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #aaa;
+}
+
+.contact .whatsapp {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #25d366;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  font-size: 0.9rem;
+  color: #777;
+}
